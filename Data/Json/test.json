@@ -1,0 +1,28 @@
+[
+  {
+    "sku": "AB101",
+    "preco_venda_estoque": 0,
+    "preco_magento": 34.9,
+    "preco_base": 30.98,
+    "NCM": "8714.10.00",
+    "grupo_materiais": 2,
+    "fonte_u_g2w": 2,
+    "fonte_sap": 2,
+    "fabricante_name": "Laquila",
+    "fabricante_code": 18,
+    "estoque": 0.0,
+    "empresa_name": "VSR",
+    "empresa_code": 136,
+    "deposito_principal": 4,
+    "data_ultima_compra": 0,
+    "custo_ultima_compra": 0,
+    "custo_medio": 0,
+    "custo_credito": 0.0,
+    "custo_compra_estoque": 0,
+    "curva": "C",
+    "codigo_barras": "7899248173347",
+    "cod_forncedor": "None",
+    "categoria_name": "Abra\u00e7adeira",
+    "categoria_code": 7
+  }
+]

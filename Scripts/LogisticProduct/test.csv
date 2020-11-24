@@ -1,0 +1,6 @@
+"categoria_code","categoria_name","codigo_barras","curva","custo_compra_estoque","custo_credito","custo_medio","custo_ultima_compra","data_ultima_compra","deposito_principal","empresa_code","empresa_name","estoque","fabricante_code","fabricante_name","fonte_sap","fonte_u_g2w","grupo_materiais","NCM","preco_base","preco_magento","preco_venda_estoque","sku"
+"7","Abraçadeira","7899248173347","C","0","0.0","0","0","0","4","136","VSR","0.0","18","Laquila","2","2","2","8714.10.00","30.98","34.9","0","AB101"
+"7","Abraçadeira","7899248149953","C","0","0.0","0","0","0","4","136","VSR","0.0","18","Laquila","2","2","2","8714.10.00","38.93","42.9","0","AB102"
+"7","Abraçadeira","7899248169234","C","0","0.0","0","0","0","4","136","VSR","0.0","18","Laquila","2","2","2","8714.10.00","39.73","43.9","0","AB103"
+"7","Abraçadeira","7899248149991","C","0","0.0","0","0","0","4","136","VSR","0.0","18","Laquila","2","2","2","8714.10.00","28.62","31.9","0","AB104"
+"9","Adaptador de guidão","0","C","0","0.0","0","0","0","0","136","VSR","0.0","17","VSR","1","1","2","8714.10.00","50.24","67.9","0","AD001"
