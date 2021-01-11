@@ -18,7 +18,7 @@ rodar logistic product no C#
 
 """
 
-realSap = ReadJson('C:\\Users\\matheus.bertho\\Documents\\Git\\Python-Wrapper\\Data\\Json\\json_sap.json')
+realSap = ReadJson('C:\\Users\\matheus.bertho\\Documents\\Git\\Python-Wrapper\\Data\\Json\\base_produtos.json')
 saps = realSap.dictionary('sku')
 
 
