@@ -4,7 +4,7 @@ import os
 from ManipulateData.ReadData.Sheet import Sheet
 
 
-class OpenCsv:
+class ReadCsv:
 
     def __init__(self, path, tipo='pasta'):
         self._path = path
@@ -66,3 +66,26 @@ class OpenCsv:
         array_sheet.append(sheet)
         return array_sheet
 
+    def get_dict(self, key):
+        dict_list = self._get_dic_by_path()
+        dict = {}
+        for x in dict_list:
+            dict[x[key]] = x
+        return dict
+
+    def _get_dic_by_path(self):
+        arquivo_csv = open(self._path, 'r', encoding='utf-8').read()
+        split_csv = arquivo_csv.split("\n")
+        header = split_csv[0].split(",")
+        first = True
+        lista = []
+        for value in split_csv:
+            split_value = value.split(',')
+            temp_dic = {}
+            if first or value == '':
+                first = False
+                continue
+            for h in range(0, len(header) - 1):
+                temp_dic[header[h]] = split_value[h]
+            lista.append(temp_dic)
+        return lista

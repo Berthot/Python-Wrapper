@@ -38,7 +38,7 @@ class ReadJson:
                     self.jsonHeader.append(h)
                 see_header = False
             # fastDic[str(line['id'])] = line['data']
-            fast_dic[str(line[key_name])] = line
+            fast_dic[str(line[key_name]).lower()] = line
         return fast_dic
 
     # def writeJson(self, data):
